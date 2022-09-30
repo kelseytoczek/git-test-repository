@@ -1,5 +1,5 @@
 body {
-  background-image: url(/Users/kelsey/Desktop/git-test-folder/git-test-repository/src/background.jpg);
+  background: url("background.jpg");
   color: #444343;
   margin-top: 8px;
   display: block;
