@@ -42,7 +42,7 @@ let months = [
 
 let year = currentTime.getFullYear();
 
-dateElement.innerHTML = `${days[dayIndex]} ${months[monthIndex]} ${dayNumber}, ${year}<br /> ${hours}:${minutes}`;
+dateElement.innerHTML = `${hours}:${minutes} <br /> ${days[dayIndex]} ${months[monthIndex]} ${dayNumber}, ${year}`;
 
 ///
 

@@ -1,8 +1,9 @@
 body {
   background: url("background.jpg");
   color: #444343;
-  margin-top: 8px;
+  margin-top: 10px;
   display: block;
+  text-align: center;
 }
 h1 {
   text-align: center;
@@ -36,6 +37,26 @@ h3 {
 .search-button {
   border-radius: 10px;
 }
+.fa-temperature-arrow-up {
+  color: #dca31a;
+}
+.fa-temperature-arrow-down {
+  color: #dca31a;
+}
+.current-temps {
+  color: #444343;
+  font-family: "Bungee Hairline", cursive;
+}
+.wind-humidity {
+  color: #444343;
+  font-family: "Bungee Hairline", cursive;
+}
+.fa-droplet {
+  color: #dca31a;
+}
+.fa-wind {
+  color: #dca31a;
+}
 .weather-container {
   color: rgb(54, 53, 53);
   font-family: "Bungee", cursive;
@@ -68,6 +89,7 @@ h3 {
   font-family: "Bungee", cursive;
   font-size: 35px;
   color: #dca31a;
+  text-align: center;
 }
 .weekly-container {
   color: #dca31a;
