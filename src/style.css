@@ -1,0 +1,95 @@
+body {
+  background-image: url(/Users/kelsey/Desktop/git-test-folder/git-test-repository/src/background.jpg);
+  color: #444343;
+  margin-top: 8px;
+  display: block;
+}
+h1 {
+  text-align: center;
+  font-family: "Bungee Shade", cursive;
+  font-size: 120px;
+  color: #d04904;
+  font-weight: 500;
+}
+h2 {
+  font-family: "Bungee", cursive;
+  color: #008487;
+  text-align: center;
+}
+h3 {
+  color: black;
+  font-family: "Bungee Hairline", cursive;
+  font-size: 45px;
+}
+.container {
+  margin: 30px auto;
+  background: #fff;
+  max-width: 1200px;
+  padding: 40px;
+  border-radius: 30px;
+}
+.search {
+  text-align: center;
+  border-radius: 10px;
+  font-size: 22px;
+}
+.search-button {
+  border-radius: 10px;
+}
+.weather-container {
+  color: rgb(54, 53, 53);
+  font-family: "Bungee", cursive;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 5px auto;
+  background: white;
+  max-width: 1050px;
+  padding: 50px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: rgb(158, 152, 152);
+  border-width: 1px 1px 1px 1px;
+}
+.location {
+  color: red;
+}
+.weather-text {
+  font-family: "Bungee Hairline", cursive;
+  color: rgb(54, 53, 53);
+  font-size: 17px;
+}
+.weather-text-2 {
+  font-family: "Bungee Hairline", cursive;
+  color: rgb(54, 53, 53);
+  font-size: 17px;
+  text-align: center;
+}
+.col {
+  font-family: "Bungee", cursive;
+  font-size: 35px;
+  color: #dca31a;
+}
+.weekly-container {
+  color: #dca31a;
+  font-family: "Bungee", cursive;
+  font-size: 10px;
+  font-weight: 500;
+  margin: 20px auto;
+  background: white;
+  max-width: 1050px;
+  padding: 50px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: rgb(158, 152, 152);
+  border-width: 1px 1px 1px 1px;
+}
+.day-name {
+  color: #d04904;
+  font-size: 20px;
+  text-align: center;
+}
+p {
+  color: #d04904;
+  font-size: 27px;
+  text-align: center;
+}
