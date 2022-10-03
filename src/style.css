@@ -77,7 +77,8 @@ h3 {
 .weather-text {
   font-family: "Bungee Hairline", cursive;
   color: rgb(54, 53, 53);
-  font-size: 17px;
+  font-size: 25px;
+  text-align: center;
 }
 .weather-text-2 {
   font-family: "Bungee Hairline", cursive;
@@ -90,6 +91,11 @@ h3 {
   font-size: 35px;
   color: #dca31a;
   text-align: center;
+}
+.units {
+  font-size: 16px;
+  position: relative;
+  top: -12px;
 }
 .weekly-container {
   color: #dca31a;
