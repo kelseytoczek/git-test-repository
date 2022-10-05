@@ -28,25 +28,47 @@ let dayNumber = currentTime.getDate();
 
 let monthIndex = currentTime.getMonth();
 let months = [
-  "January",
-  "February",
+  "Jan",
+  "Feb",
   "March",
   "April",
   "May",
   "June",
   "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
+  "Aug",
+  "Sept",
+  "Oct",
+  "Nov",
+  "Dec",
 ];
 
 let year = currentTime.getFullYear();
 
-dateElement.innerHTML = `${hours}:${minutes}<br /> ${days[dayIndex]} ${months[monthIndex]} ${dayNumber}, ${year}`;
+dateElement.innerHTML = `${hours}:${minutes}<br /> ${days[dayIndex]} • ${months[monthIndex]} ${dayNumber} ${year}`;
 
-///temp & location info///
+///temp & location info + forecast///
+
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["Wed", "Fri", "Sat", "Sun"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `<div class="col-2"><div class="js-container" id="forecast">
+<div class="day-name">${day}</div>
+        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="" width="42" /><span class="forecast-max">50° |</span>
+        <span class="forecast-min">40°</span>
+					<div class="weather-text-2">Cloudy</div>
+</div>
+  </div>`;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function displayWeatherCondition(response) {
   document.querySelector(
     "#city"
@@ -136,4 +158,6 @@ celciusLink.addEventListener("click", displayCelciusTemperature);
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
-///
+
+///forecast///
+displayForecast();

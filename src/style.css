@@ -159,3 +159,12 @@ footer {
   text-align: center;
   font-size: 10px;
 }
+.forecast-max {
+  font-size: 20px;
+  color: #dca31a;
+}
+.forecast-min {
+  font-size: 20px;
+  opacity: 0.5;
+  color: #dca31a;
+}
