@@ -25,7 +25,7 @@
   <div class="container">
   <body>
     <h1>
-      ❋ Weather ❋
+      ✿ <span class="weather">Weather</span> ✿
     </h1><br />
 <form class="search-button" id="search-button">
     <div class="search">
@@ -55,19 +55,18 @@
 
 <div class="row">
     <div class="col">
-      <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="" id="iconElement"> <span class="temperature" id="temperature"></span
-			> 
+      <span class="main-temps"><img src="https://openweathermap.org/img/wn/10d@2x.png" alt="" id="iconElement"><span class="temperature" id="temperature"></span
+			> </span>
       <span class="units"><a href="#" id="fahrenheit-link" class="active">°F</a> | <a href="#" id="celcius-link">°C</a></span>
-            		<div class="weather-text" id="description"></div>
+      <div class="weather-text" id="description"></div>
           </div>
 <div class = "vertical"></div>
-          <div class="col"><span class="current-temps"><i class="fa-solid fa-temperature-arrow-up"></i> <span id="max-temp"></span> °F<br /><i class="fa-solid fa-temperature-arrow-down"></i> <span id="min-temp"></span> °F</div>
+          <div class="col"><span class="current-temps"><i class="fa-solid fa-temperature-arrow-up"></i> <span id="max-temp"></span><br /><i class="fa-solid fa-temperature-arrow-down"></i> <span id="min-temp"></span></div>
 
 <div class="col"><span class="wind-humidity"><i class="fa-solid fa-droplet"></i> <span id="humidity"></span>%
   <br />
         <i class="fa-solid fa-wind"></i> <span id="wind"></span> mph</div></div>
     </div></span></div></span>
-    <br />
 
     <div class="weekly-container">
       <div class="row align-tiems-start">
@@ -91,6 +90,7 @@
         <i class="fa-solid fa-cloud-showers-heavy"></i> 50 °F
         <div class="weather-text-2">Heavy Rain</div></div>
       </div></div>
+      <footer><a href="https://github.com/kelseytoczek/git-test-repository">Open-source code</a> by Kelsey Toczek</footer>
     <script src="src/index.js"></script>
   </body>
 </html>

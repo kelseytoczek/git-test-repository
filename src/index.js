@@ -44,7 +44,7 @@ let months = [
 
 let year = currentTime.getFullYear();
 
-dateElement.innerHTML = `${days[dayIndex]} ${months[monthIndex]} ${dayNumber}, ${year} ${hours}:${minutes}`;
+dateElement.innerHTML = `${hours}:${minutes}<br /> ${days[dayIndex]} ${months[monthIndex]} ${dayNumber}, ${year}`;
 
 ///temp & location info///
 function displayWeatherCondition(response) {
@@ -136,3 +136,4 @@ celciusLink.addEventListener("click", displayCelciusTemperature);
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
+///

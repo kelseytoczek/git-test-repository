@@ -8,6 +8,13 @@ h1 {
   text-align: center;
   font-family: "Bungee Shade", cursive;
   font-size: 100px;
+  color: #008487;
+  font-weight: 500;
+}
+.weather {
+  text-align: center;
+  font-family: "Bungee Shade", cursive;
+  font-size: 100px;
   color: #d04904;
   font-weight: 500;
 }
@@ -39,7 +46,7 @@ h3 {
   margin: 5px auto;
   background: white;
   max-width: 1050px;
-  max-height: 338px;
+  max-height: 330px;
   padding: 50px;
   border-radius: 30px;
   border-style: solid;
@@ -52,7 +59,9 @@ h3 {
 .weather-text {
   font-family: "Bungee Hairline", cursive;
   color: rgb(54, 53, 53);
-  font-size: 30px;
+  font-size: 35px;
+  margin: -25px;
+  text-align: center;
 }
 .weather-text-2 {
   font-family: "Bungee Hairline", cursive;
@@ -62,7 +71,7 @@ h3 {
 }
 .col {
   font-family: "Bungee", cursive;
-  font-size: 40px;
+  font-size: 35px;
   color: #dca31a;
 }
 .weekly-container {
@@ -86,8 +95,9 @@ h3 {
 }
 p {
   color: #d04904;
-  font-size: 29px;
+  font-size: 30px;
   text-align: center;
+  margin: -30px;
 }
 .vertical {
   border-left: 0.5px solid rgb(53, 53, 53);
@@ -121,10 +131,12 @@ a:hover {
 .current-temps {
   color: #444343;
   font-family: "Bungee Hairline", cursive;
+  font-size: 40px;
 }
 .wind-humidity {
   color: #444343;
   font-family: "Bungee Hairline", cursive;
+  font-size: 40px;
 }
 .fa-droplet {
   color: #dca31a;
@@ -137,4 +149,13 @@ a:hover {
 }
 .fa-temperature-arrow-down {
   color: #dca31a;
+}
+.main-temps {
+  font-size: 45px;
+  font-family: "Bungee", cursive;
+  color: #dca31a;
+}
+footer {
+  text-align: center;
+  font-size: 10px;
 }
