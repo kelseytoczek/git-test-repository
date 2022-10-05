@@ -124,8 +124,8 @@ function searchCity(city) {
 
 function handleSubmit(event) {
   event.preventDefault();
-  let city = document.querySelector("#city-input").value;
-  searchCity(city);
+  let city = document.querySelector("#city-input");
+  searchCity(city.value);
 }
 
 function searchLocation(position) {
@@ -157,8 +157,8 @@ function displayFahrenheitTemperature(event) {
   temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
 
-let currentLocationButton = document.querySelector("#current-button");
-currentLocationButton.addEventListener("click", getCurrentLocation);
+let locationButton = document.querySelector("#current-button");
+locationButton.addEventListener("click", getCurrentLocation);
 
 let searchForm = document.querySelector("#search-button");
 searchForm.addEventListener("submit", handleSubmit);
@@ -173,5 +173,3 @@ celciusLink.addEventListener("click", displayCelciusTemperature);
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
-
-///forecast///
