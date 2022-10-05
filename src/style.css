@@ -1,21 +1,15 @@
 body {
   background: url("background.jpg");
   color: #444343;
-  margin-top: 10px;
+  margin-top: 8px;
   display: block;
-  text-align: center;
 }
 h1 {
   text-align: center;
   font-family: "Bungee Shade", cursive;
-  font-size: 120px;
+  font-size: 100px;
   color: #d04904;
   font-weight: 500;
-}
-h2 {
-  font-family: "Bungee", cursive;
-  color: #008487;
-  text-align: center;
 }
 h3 {
   color: black;
@@ -37,26 +31,6 @@ h3 {
 .search-button {
   border-radius: 10px;
 }
-.fa-temperature-arrow-up {
-  color: #dca31a;
-}
-.fa-temperature-arrow-down {
-  color: #dca31a;
-}
-.current-temps {
-  color: #444343;
-  font-family: "Bungee Hairline", cursive;
-}
-.wind-humidity {
-  color: #444343;
-  font-family: "Bungee Hairline", cursive;
-}
-.fa-droplet {
-  color: #dca31a;
-}
-.fa-wind {
-  color: #dca31a;
-}
 .weather-container {
   color: rgb(54, 53, 53);
   font-family: "Bungee", cursive;
@@ -65,6 +39,7 @@ h3 {
   margin: 5px auto;
   background: white;
   max-width: 1050px;
+  max-height: 338px;
   padding: 50px;
   border-radius: 30px;
   border-style: solid;
@@ -77,8 +52,7 @@ h3 {
 .weather-text {
   font-family: "Bungee Hairline", cursive;
   color: rgb(54, 53, 53);
-  font-size: 25px;
-  text-align: center;
+  font-size: 30px;
 }
 .weather-text-2 {
   font-family: "Bungee Hairline", cursive;
@@ -88,14 +62,8 @@ h3 {
 }
 .col {
   font-family: "Bungee", cursive;
-  font-size: 35px;
+  font-size: 40px;
   color: #dca31a;
-  text-align: center;
-}
-.units {
-  font-size: 16px;
-  position: relative;
-  top: -12px;
 }
 .weekly-container {
   color: #dca31a;
@@ -118,6 +86,35 @@ h3 {
 }
 p {
   color: #d04904;
-  font-size: 27px;
+  font-size: 29px;
   text-align: center;
+}
+.vertical {
+  border-left: 0.5px solid rgb(53, 53, 53);
+  height: 140px;
+  position: absolute;
+  left: 40%;
+}
+.units {
+  position: relative;
+  font-size: 25px;
+  top: -15px;
+  font-family: "Bungee Hairline", cursive;
+}
+.units .active {
+  text-decoration: none;
+  color: rgb(53, 53, 53);
+  cursor: default;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #d04904;
 }
