@@ -21,12 +21,12 @@ h1 {
 h3 {
   color: black;
   font-family: "Bungee Hairline", cursive;
-  font-size: 45px;
+  font-size: 40px;
 }
 .container {
   margin: 30px auto;
   background: #fff;
-  max-width: 1200px;
+  max-width: 1000px;
   padding: 40px;
   border-radius: 30px;
 }
@@ -45,9 +45,9 @@ h3 {
   font-weight: 500;
   margin: 5px auto;
   background: white;
-  max-width: 1050px;
+  max-width: 950px;
   max-height: 330px;
-  padding: 50px;
+  padding: 40px;
   border-radius: 30px;
   border-style: solid;
   border-color: rgb(158, 152, 152);
@@ -81,8 +81,8 @@ h3 {
   font-weight: 500;
   margin: 20px auto;
   background: white;
-  max-width: 1050px;
-  padding: 50px;
+  max-width: 950px;
+  padding: 20px;
   border-radius: 30px;
   border-style: solid;
   border-color: rgb(158, 152, 152);
@@ -103,12 +103,12 @@ p {
   border-left: 0.5px solid rgb(53, 53, 53);
   height: 140px;
   position: absolute;
-  left: 40%;
+  left: 50%;
 }
 .units {
   position: relative;
-  font-size: 25px;
-  top: -15px;
+  font-size: 29px;
+  top: -35px;
   font-family: "Bungee Hairline", cursive;
 }
 .units .active {
@@ -128,11 +128,6 @@ a:hover {
   text-decoration: none;
   color: #d04904;
 }
-.current-temps {
-  color: #444343;
-  font-family: "Bungee Hairline", cursive;
-  font-size: 40px;
-}
 .wind-humidity {
   color: #444343;
   font-family: "Bungee Hairline", cursive;
@@ -144,14 +139,8 @@ a:hover {
 .fa-wind {
   color: #dca31a;
 }
-.fa-temperature-arrow-up {
-  color: #dca31a;
-}
-.fa-temperature-arrow-down {
-  color: #dca31a;
-}
 .main-temps {
-  font-size: 45px;
+  font-size: 75px;
   font-family: "Bungee", cursive;
   color: #dca31a;
 }
