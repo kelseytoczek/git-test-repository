@@ -29,6 +29,7 @@ h3 {
   max-width: 1000px;
   padding: 40px;
   border-radius: 30px;
+  display: block;
 }
 .search {
   text-align: center;
