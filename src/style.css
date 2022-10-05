@@ -118,3 +118,23 @@ a:hover {
   text-decoration: none;
   color: #d04904;
 }
+.current-temps {
+  color: #444343;
+  font-family: "Bungee Hairline", cursive;
+}
+.wind-humidity {
+  color: #444343;
+  font-family: "Bungee Hairline", cursive;
+}
+.fa-droplet {
+  color: #dca31a;
+}
+.fa-wind {
+  color: #dca31a;
+}
+.fa-temperature-arrow-up {
+  color: #dca31a;
+}
+.fa-temperature-arrow-down {
+  color: #dca31a;
+}
