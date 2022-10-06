@@ -158,7 +158,7 @@ function displayFahrenheitTemperature(event) {
 }
 
 let locationButton = document.querySelector("#current-button");
-locationButton.addEventListener("click", getCurrentLocation);
+locationButton.addEventListener("", getCurrentLocation);
 
 let searchForm = document.querySelector("#search-button");
 searchForm.addEventListener("submit", handleSubmit);
